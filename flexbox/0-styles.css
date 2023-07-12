@@ -180,25 +180,20 @@
   /* Grid
       ============================= */
 
-  /* .section > * > * > .row {
-    display: flex;
-  } */
-
-  #services .row {
+   #services > * > * > .row {
     display: flex;
   }
+
+  /* #services .row {
+    display: flex;
+  } */
   
   ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
   }
-  
-  /* .row::after {
-    content: '';
-    display: table;
-    clear: both;
-  } */
+
   
   [class*='col-'] {
     /* float: left; */
