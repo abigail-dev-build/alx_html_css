@@ -179,7 +179,7 @@
   
   /* Grid
       ============================= */
-      .section .row {
+      .section .container .section-body .row {
         display: flex;
       }
   
