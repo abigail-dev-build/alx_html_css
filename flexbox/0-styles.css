@@ -179,9 +179,10 @@
   
   /* Grid
       ============================= */
-      .section .container .section-body .row {
-        display: flex;
-      }
+
+  .section > * > * > .row {
+    display: flex;
+  }
   
   ul.row {
     margin: 0;
