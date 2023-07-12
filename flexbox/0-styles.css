@@ -180,13 +180,13 @@
   /* Grid
       ============================= */
 
-   #services > * > * > .row {
-    display: flex;
-  }
-
-  /* #services .row {
+   /* #services > * > * > .row {
     display: flex;
   } */
+
+  .row {
+    display: flex;
+  }
   
   ul.row {
     margin: 0;
