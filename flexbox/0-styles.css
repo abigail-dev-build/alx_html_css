@@ -180,7 +180,11 @@
   /* Grid
       ============================= */
 
-  .section > * > * > .row {
+  /* .section > * > * > .row {
+    display: flex;
+  } */
+
+  #services .row {
     display: flex;
   }
   
