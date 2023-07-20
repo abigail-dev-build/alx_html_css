@@ -221,3 +221,70 @@ html {
 color: var(--color-primary);
 font-size: 14px;
 }
+
+.membership_section{
+    background-color: var(--color-black);
+    height: 502px;
+    padding: 70px 150px;
+
+}
+.membership_section h1{
+    color: var(--color-primary);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.membership_section h1 span{
+    color: var(--color-white);
+    font-weight: 100;
+}
+.membership-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+.single-member {
+    width: 217px;
+}
+.single-member img {
+    width: 44px;
+    margin: auto;
+    display: block;
+}
+.single-member h2{
+    color: var(--color-white);
+    font-size: 18px;
+    text-align: center;
+}
+.single-member p{
+    color: var(--color-white);
+    font-size: 14px;
+    text-align: center;
+    /* padding: 0 12px; */
+}
+
+
+
+.footer_section {
+    height: 249px;
+    background-color: var(--color-black);
+    margin-top: 60px;
+    padding: 0 211px;
+  }
+  .footer_section-wrapper {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-text {
+    text-align: center;
+    margin-top: 32px;
+    color: var(--color-grey);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+  }
