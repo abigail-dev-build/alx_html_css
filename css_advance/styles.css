@@ -25,9 +25,9 @@ html {
 }
 :root {
     --color-primary: #C271FF;
-    /* --color-black: #090909; */
+    --color-black: #071629;
     --color-white: #ffffff;
-    /* --color-grey: #a0a0a0; */
+    --color-grey: #a0a0a0;
     /* --color-tomato: #ff6565; */
     /* --color-light-grey: #f3f3f3; */
     /* --color-dark-grey: #353535; */
@@ -167,4 +167,57 @@ html {
     color: var(--color-white);
     font-size: 22px;
     font-style: italic;
+}
+.tutorial_section {
+    padding: 60px 150px;
+}
+.tutorial_section h1 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--color-black);
+    font-weight: 100;
+}
+.tutorial_section h1 span {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+.tutorials-videos-coord {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.first-step {
+    width: 255px;
+    position: relative;
+}
+.play-icon {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.first-step h2 {
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+}
+.first-step p {
+    color: var(--color-grey);
+    font-size: 14px;
+}
+.second-step, .third-step {
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.second-step h3 {
+    color: var(--color-primary);
+    font-size: 14px;
+    margin-left: 16px;
+}
+.third-step {
+    justify-content: space-between;
+}
+.third-step p {
+color: var(--color-primary);
+font-size: 14px;
 }
