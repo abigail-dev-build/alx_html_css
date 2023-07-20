@@ -141,3 +141,30 @@ html {
     color: var(--color-white);
     font-style: italic;
 }
+.quote_section {
+    height: 392px;
+    background-color: var(--color-primary);
+    padding: 90px 150px;
+    display: flex;
+}
+.quote-avatar {
+    padding-top: 20px;
+}
+.quote-author-brief {
+    margin-left: 40px;
+    width: 70%;
+}
+.quote {
+    color: var(--color-white);
+    font-size: 22px;
+}
+.author-name {
+    color: var(--color-white);
+    font-size: 22px;
+    font-weight: bold;
+}
+.author-role {
+    color: var(--color-white);
+    font-size: 22px;
+    font-style: italic;
+}
