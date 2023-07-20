@@ -260,7 +260,37 @@ font-size: 14px;
     color: var(--color-white);
     font-size: 14px;
     text-align: center;
-    /* padding: 0 12px; */
+}
+.questions_section {
+    padding: 60px 170px;
+}
+.questions_section h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+    color: var(--color-black);
+}
+.row{
+    display: block;
+    width: 80%;
+    margin: 60px auto;
+}
+.row-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-block {
+    width: 350px;
+}
+.item-block h3 {
+    color: var(--color-black);
+    font-weight: bold;
+    font-size: 16px;
+}
+.item-block p {
+    color: var(--color-grey);
+    font-size: 14px;
 }
 
 
