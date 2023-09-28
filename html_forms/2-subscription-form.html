@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML FORMS</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #form {
+        border-radius: 25px;
+        padding: 24px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+      }
+      #name, #email{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="form">
+      <label for="name">Name:</label><br />
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+        required
+      /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        name="email address"
+        id="email"
+        placeholder="Enter your email address"
+        required
+      /><br /><br />
+
+      <p>Please select your subscription preference:</p>
+
+      <input type="radio" id="month" name="subscription" value="monthly" />
+      <label for="html">Monthly</label><br />
+
+      <input type="radio" id="year" name="subscription" value="yearly" />
+      <label for="css">Yearly</label><br />
+
+    </form>
+  </body>
+</html>
