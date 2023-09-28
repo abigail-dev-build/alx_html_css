@@ -29,21 +29,9 @@
         <input type="password" name="password" id="password" placeholder="Enter your password" required /><br><br>
 
         <label for="confirm-pwd">Confirm Password:</label><br>
-        <input type="password" name="confirm password" id="confirm-password" placeholder="Confirm your password" required /><br><br>
+        <input type="password" name="confirm password" id="confirm-password" confirm="password" placeholder="Confirm your password" required /><br><br>
 
         <input type="submit" value="Submit" />
     </form>
-
-    <script>
-        document.querySelector("form").addEventListener("submit", function(event) {
-          const password = document.getElementById("password").value;
-          const confirm_password = document.getElementById("confirm-password").value;
-    
-          if (password !== confirm_password) {
-            alert("Passwords do not match. Please re-enter.");
-            event.preventDefault();
-          }
-        });
-      </script>
   </body>
 </html>
