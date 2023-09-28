@@ -15,7 +15,8 @@
         padding: 24px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
       }
-      #name, #email{
+      #name,
+      #email {
         width: 100%;
       }
     </style>
@@ -40,16 +41,26 @@
         required
       /><br /><br />
 
-      <p>Please select your subscription preference:</p>
+      <label>How do you rate this task:</label><br>
+      <input type="checkbox" id="excellence" name="tasks[]" value="Excellence" required />
+      <label for="Excellence"> Excellence</label><br />
+      <input type="checkbox" id="good" name="tasks[]" value="Good" />
+      <label for="Good"> Good</label><br />
+      <input type="checkbox" id="average" name="tasks[]" value="Average" />
+      <label for="Average"> Average</label><br />
+      <input type="checkbox" id="poor" name="tasks[]" value="Poor" />
+      <label for="Poor"> Poor</label><br /><br />
 
-      <input type="radio" id="month" name="subscription" value="monthly" />
-      <label for="html">Monthly</label><br />
 
-      <input type="radio" id="year" name="subscription" value="yearly" />
-      <label for="css">Yearly</label><br />
-
+      <label for="task">Upload a file:</label><br />
+      <input
+        type="file"
+        name="task"
+        id="task"
+        required
+        accept=".xlsx,.xls,.doc, .docx,.ppt, .pptx,.txt,.pdf"
+      /><br /><br />
       <input type="submit" value="Submit" />
-
     </form>
   </body>
 </html>
