@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML FORMS</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #form {
+            border-radius: 25px;
+            padding: 24px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+        }
+    </style>
+  </head>
+  <body>
+    <form id="form">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required /><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email address" id="email" placeholder="Enter your email address" required /><br><br>
+
+        <label for="pwd">Password:</label><br>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required /><br><br>
+
+        <label for="confirm-pwd">Confirm Password:</label><br>
+        <input type="password" name="confirm password" id="confirm-password" placeholder="Confirm your password" required /><br><br>
+
+        <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+        document.querySelector("form").addEventListener("submit", function(event) {
+          const password = document.getElementById("password").value;
+          const confirm_password = document.getElementById("confirm-password").value;
+    
+          if (password !== confirm_password) {
+            alert("Passwords do not match. Please re-enter.");
+            event.preventDefault();
+          }
+        });
+      </script>
+  </body>
+</html>
